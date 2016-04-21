@@ -15,6 +15,8 @@ How can we leverage technology to detect abuse in early stages—perhaps by exam
     * `oos_by_cause_of_death_demographics_nationwide.txt`: grouped by Year, Multiple Cause of death, Ten-Year Age Groups, Gender, Race.
     * `oos_by_demographics_state_level.txt`: grouped by State, Year, Ten-Year Age Groups, Gender, Race
 
+* `data/CMS` - De-identified Medicare Part D opioid prescription claims – prescriptions written and then submitted to be filled – within the United States, at the state, county, and ZIP code levels. You can find a visualization of this dataset [here](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/OpioidMap.html).
+
 * `analysis/` - iPyton notebook files (which you can view right here on GitHub) loading the data and exploring a few things. Good to understand the datasets and get ideas for your project. _If_ you want to run this notebook, run `pip install -r requirements.txt` inside a virtualenv first.
 
 
