@@ -10,7 +10,10 @@ How can we leverage technology to detect abuse in early stages—perhaps by exam
 
 ## In this Repo
 
-* `data/CDC` - Opioid overdose death in United States from 2009 to 2014 grouped by state, year, Underlying Cause of death, Multiple Cause of death. This dataset was retrieved from [here](http://wonder.cdc.gov). For more information about the query criteria, please refer to `analysis/Opioid Overdose Deaths.ipynb`.
+* `data/CDC` - Opioid overdose death in United States from 1999 to 2014. This dataset was retrieved from [here](http://wonder.cdc.gov). For more information about the query criteria, please refer to `analysis/Opioid Overdose Deaths.ipynb`.
+    * `oos_by_cause_of_death_state_level.txt`: grouped by State, Year, Underlying Cause of death, Multiple Cause of death
+    * `oos_by_cause_of_death_demographics_nationwide.txt`: grouped by Year, Multiple Cause of death, Ten-Year Age Groups, Gender, Race.
+    * `oos_by_demographics_state_level.txt`: grouped by State, Year, Ten-Year Age Groups, Gender, Race
 
 * `analysis/` - iPyton notebook files (which you can view right here on GitHub) loading the data and exploring a few things. Good to understand the datasets and get ideas for your project. _If_ you want to run this notebook, run `pip install -r requirements.txt` inside a virtualenv first.
 
