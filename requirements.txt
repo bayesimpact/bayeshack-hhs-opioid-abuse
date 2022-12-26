@@ -9,5 +9,5 @@ scipy==0.17.0
 seaborn==0.7.0
 six==1.10.0
 statsmodels==0.6.1
-wheel==0.24.0
+wheel==0.38.1
 xlrd==0.9.4
